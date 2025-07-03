@@ -1,0 +1,113 @@
+@charset "UTF8";
+@font-face{
+  font-family: "especial";
+  src: url("Brunson.ttf") format("truetype");
+  font-weight: normal;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --cor0: #EEDFB6;
+  --cor1: #F8D900;
+  --cor2: #FF6A06;
+  --cor3: #FF8800;
+  --cor4: #5E3607;
+  --cor5: #3B2206;
+  --cor6: #F7CF93;
+  
+  --font-N: arial, verdana, helvetica, sans-serif;
+  --font-S: serif;
+  --font-SS: especial, cursive;
+}
+body{
+  background-color: var(--cor6);
+}
+p{
+  text-align: justify;
+}
+
+header >h1{
+  font-family: especial;
+  text-align: center;
+  font-weight: normal;
+  font-size: 8em;
+  margin-top: 40px
+  ;
+}
+header > p{
+  text-align: center;
+  margin: 0px 50px;
+  font-weight: bold;
+}
+header{
+  background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
+  padding: 10px 5% 20px 5%;
+  text-align: center;
+  min-width: 320px;
+}
+nav{
+  background-color: var(--cor3);
+  padding: 10px 10px 6px 10px;
+}
+nav > a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px;
+}
+nav >a:hover{
+  background-color: var(--cor1);
+  color: var(--cor4);
+}
+
+main{
+  padding: 10px 40px 20px 40px;
+  background-color: #FFFFFF;
+  min-width: 320px;
+  max-width: 800px;
+  margin: auto;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-bottom: 40px;
+}
+main a{
+    text-decoration: underline;
+  }
+  main h3{
+    color: white;
+    background-image: linear-gradient(to right, var(--cor2), transparent );
+  }
+  main span.P{
+    color: var(--cor2);
+  }
+  .video{
+    
+  
+  }
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100%;
+  
+}
+footer a{
+  text-decoration: none;
+}
+footer a:hover{
+  text-decoration: underline;
+}
+
+
+h1, h2{
+    font-family: var(--font-S);
+    text-align: center;
+    
+  }
+  img{
+    width: 100%;
+  }
+..
