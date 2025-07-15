@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>desafio do cordel</title>
+  
+  <style>
+  
+  @font-face{
+    font-family: "poetica";
+    src: url("../font/font001.otf") format(opentype);
+  }
+  @font-face{
+    font-family: "especial";
+    src: url("../font/font002.otf") format(opentype);
+  }
+  
+  
+  *{
+    border: 0px;
+    margin: 0px;
+  }
+  :root{
+    --cor0: #EBFFE7;
+    --cor1: #C2FF00;
+    --cor2: #7DB11D;
+    --cor3: #6F9130;
+    --cor4: #546633;
+    --cor5: #353C28;
+    --cor6: #30332B;
+    
+    --font1: ;
+    --font2: ;
+    --font3: especial, serif;
+    --font4: poetica, cursive;
+  }
+  body{
+    background-color: var(--cor5);
+  }
+    header{
+      background: var(--cor1) url("../img/folhas01.jpg") center center/ cover no-repeat fixed;
+      
+      
+      
+    }
+    header h1{
+      font-family: var(--font4);
+      text-align: center;
+      font-size: 5em;
+      color: white;
+      text-shadow: 3px 3px var(--cor5);
+    }
+    header p{
+      font-family: var(--font3);
+      text-align: center;
+      color: white;
+      padding: 20px;
+      font-weight: bold;
+    }
+    main{
+      padding: 15px;
+      background-color: var(--cor0);
+      min-width: 320px;
+      max-width: 800px;
+      margin: auto;
+    }
+    main > h1{
+      font-family: var(--font3);
+      padding: 0;
+      
+    }
+    
+    main > p.normal{
+      color: black;
+      padding: 0px 50% 0px 0px;
+    }
+    
+    main > p.diferente1{
+      background: var(--cor4) url("../img/mato.png")
+      center center/ 800px 700px no-repeat fixed;
+      margin: 10px -15px;
+      padding: 20px 50% 20px 15px;
+      color: white;
+    }
+    main > p.diferente2{
+      background: var(--cor3) url("../img/beija-flor.jpg") left bottom/cover no-repeat fixed;
+      margin: 0px -15px 0px -15px;
+      padding: 20px 50% 20px 15px;
+    }
+    main > p.diferente3{
+      background: var(--cor4) url("../img/cachoeira.jpg") center center /100% 100% no-repeat fixed;
+      margin: 0px -15px 0px -15px;
+      padding: 20px 50% 20px 15px;
+    }
+    footer{
+      background-color: black;
+      padding: 7px;
+    }
+    footer p{
+      color: white;
+      text-align: center;
+    }
+    footer a{
+      text-decoration: none;
+    }
+    footer a:hover{
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>poesia do cordel</h1>
+    <p>por <a href="#"> Patativa do Assaré</a></p>
+  </header>
+
+  <main>
+    <h1>abc do nordeste</h1>
+    <p class="normal">
+      A — Ai, como é duro viver nos Estados do Nordeste quando o nosso Pai Celeste não manda a nuvem chover.É bem triste a gente ver findar o mês de janeiro depois findar fevereiro e março também passar, sem o inverno começar no Nordeste brasileiro.
+    </p>
+    
+    <p class="diferente1">
+      B — Berra o gado impaciente reclamando o verde pasto, desfigurado e arrasto, com o olhar de penitente; o fazendeiro, descrente, um jeito não pode dar, o sol ardente a queimar e o vento forte soprando, a gente fica pensando que o mundo vai se acabar.
+    </p>
+    <p class="normal">
+      C — Caminhando pelo espaço, como os trapos de um lençol, pras bandas do pôr do sol, as nuvens vão em fracasso:aqui e ali um pedaço vagando... sempre vagando, quem estiver reparando faz logo a comparação de umas pastas de algodão que o vento vai carregando.
+    </p>
+    
+    <p class="diferente2">
+      D — De manhã, bem de manhã, vem da montanha um agouro de gargalhada e de choro da feia e triste cauã: um bando de ribançã pelo espaço a se perder, pra de fome não morrer, vai atrás de outro lugar, e ali só há de voltar, um dia, quando chover.
+    </p>
+    <p class="normal">
+      E — Em tudo se vê mudança quem repara vê até que o camaleão que é verde da cor da esperança, com o flagelo que avança, muda logo de feição. O verde camaleão perde a sua cor bonita fica de forma esquisita que causa admiração.
+      </p>
+      <p class="diferente3">
+        F — Foge o prazer da floresta o bonito sabiá, quando flagelo não há cantando se manifesta. Durante o inverno faz festa gorjeando por esporte, mas não chovendo é sem sorte, fica sem graça e calado o cantor mais afamado dos passarinhos do norte.
+      </p>
+
+  </main>
+  
+  <footer>
+    <p>feito por <a href="#">kaleo</a> para <a href="#">curso em video</a></p>
+  </footer>
+</body>
+
+</html>
