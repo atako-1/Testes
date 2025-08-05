@@ -10,15 +10,11 @@
   
   @font-face{
     font-family: "poetica";
-    src: url("../fontes/font001.otf") format(opentype);
-  }
-  @font-face{
-    font-family: "especial";
-    src: url("../fontes/font002.otf") format(opentype);
+    src: url("../fontes/Kenyan Coffee Rg It.otf") format(opentype);
   }
   @font-face{
     font-family: "manual";
-    src: url("../fontes/font003.ttf");
+    src: url("../fontes/shadows_into_light.ttf");
     font-size: 3em;
   }
   
@@ -36,10 +32,9 @@
     --cor5: #000000;
 
     
-    --font1: ;
-    --font2: manual;
-    --font3: especial;
-    --font4: poetica;
+    --font1: manual;
+    
+    --font2: poetica;
   }
   html, body{
     background-color: var(--cor2);
@@ -52,7 +47,7 @@
       
     }
     header h1{
-      font-family: var(--font4);
+      font-family: var(--font2);
       text-align: center;
       font-size: 5em;
       color: white;
@@ -83,7 +78,7 @@
     }
     section{
       line-height: 2em;
-      font-family: var(--font2);
+      font-family: var(--font1);
       
     }
     section.normal{

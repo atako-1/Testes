@@ -1,0 +1,36 @@
+@charset="UTF-8";
+
+*{
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+}
+
+header{
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+span{
+  width: 100%;
+}
+
+nav{
+  background-color: #42445Aorange;
+  padding: 10px;
+  
+}
+nav a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+nav a:hover{
+  color: #FFAB00;
+}
+main{
+  
+}
+footer{
+  
+}

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>tabela resposiva</title>
+  <style>
+  *{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+    table{
+      border-collapse: collapse;
+      
+      
+    }
+    th, td, caption{
+      border: 1px solid black;
+      padding: 10px;
+    }
+    
+    caption{
+      background-color: #BEBEBE;
+    }
+    th{
+      background-color: #828282;
+    }
+    h1{
+      background-image: linear-gradient(to right, #838383, transparent);
+      padding: 5px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    h2{
+      background-image: linear-gradient(to right, #FFB4B4, transparent);
+      padding: 5px;
+      font-family: 'Times New Roman', Times, serif; 
+    }
+    p{
+      text-align: justify;
+      background-color: #DEDEDE;
+      padding: 5px;
+    }
+    /*o responsável pelo efeito zebrado esta logo a baixo a nossa querida pseudo classe*/
+    tr:nth-child(2n){
+      background-color: #D1D1D1;
+    }
+    div.teste2{
+      background-color: #E5E5E5;
+    }
+    h3{
+      padding: 5px;
+      background-color: #B4B4B4;
+
+    }
+    /*aqui abaixo vemos um pouco mais, se você colocar 2 vai pular uma e aplicar na segunda e assm vai com qualquer número assim como visto na tabela, mais temos a opção de impar(odd) e par(even)*/
+    
+    h3:nth-child(even){
+      background-image: linear-gradient(to right, #FF7401, transparent);
+    }
+      
+    
+      
+    
+  </style>
+</head>
+
+
+<body>
+  <h1>Essa tabela tera um efeito zebrado</h1>
+  <p>Esse efeito zebrado é causado por uma pseodo classe, efeito é especialmente util para tabelas altas mais nao somente para tabelas.</p>
+  
+    <table>
+      <caption>
+        tabela cobaia
+      </caption>
+      <thead>
+        <tr>
+          <th>coisa 1</th>
+          <th>coisa 2</th>
+          <th>coisa 3</th>
+          <th>coisa 4</th>
+          <th>coisa 5</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+        </tr>
+        <tr>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+
+        </tr>
+        <tr>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+
+        </tr>
+                <tr>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+
+        </tr>
+                <tr>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+
+        </tr>
+                <tr>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+         
+        </tr>
+                <tr>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+
+        </tr>
+                <tr>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+
+        </tr>
+                <tr>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+
+        </tr>
+                <tr>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+
+        </tr> 
+        <tr>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          
+        
+        </tr> 
+        <tr>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+
+
+          
+      </tbody>
+    </table>
+  <h2>Outros usos dessa pseodo classe</h2>
+  <p>e
+  Essa pseodo classe aplica o efeito pulando um numero de teg especificado por você ou impar e par que você também tem que especificar. Exemplo:</p>
+  <div class="teste2">
+  <h3>cobaia 1</h3>
+  <h3>cobaia 2</h3>
+  <h3>cobaia 3</h3>
+  <h3>cobaia 4</h3>
+  <h3>cobaia 5</h3>
+  <h3>cobaia 6</h3>
+  </div>
+ 
+  
+</body>
+
+</html>

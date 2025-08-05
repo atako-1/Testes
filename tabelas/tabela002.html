@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>teste de tabela 2</title>
+  <style>
+    table{
+      border-collapse: collapse;
+      margin: auto;
+      box-shadow: 10px 10px 6px #A2A2A2;
+      overflow: auto;
+      
+    }
+    td, th{
+      border: 1px solid black ;
+      padding: 7px;
+    }
+    
+    caption{
+      font-weight: bolder;
+      background-color: gray;
+    }
+    .mulheres{
+      background-color: #FF7FFE;
+    }
+    .homens{
+      background-color: #7FDFFF;
+    }
+    thead th{
+      background-color: Black;
+      color: white;
+      border: 1px solid white;
+      
+    }
+    h1{
+      background: #00FFCB url("../img/bandeira-tchola.png") center center/ cover no-repeat;
+      text-align: center;
+      font-size: 25em;
+      padding: 0px;
+      border: 0px;
+      margin: 0px;
+      color: #FF01FD;
+      text-shadow: 10px 10px black;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <caption>
+      filmes por genero
+    </caption>
+    <thead>
+      <tr>
+        <th>genero</th>
+        <th>pessoas</th>
+        <th colspan="3">filmes</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr class="mulheres">
+        <th rowspan="3" class="mulheres">mulheres</th>
+        <td>maria clara</td>
+        <td>toy story</td>
+        <td> alien</td>
+        <td>barbie</td>
+      </tr>
+      <tr class="mulheres">
+        <td>Alessandra mato</td>
+        <td>eu sou a lenda</td>
+        <td>Jurassic world 3</td>
+        <td>guerra do amanhã</td>
+        
+      </tr>
+      <tr class="mulheres">
+        <td>eduarda Souza</td>
+        <td>gente grande 1</td>
+        <td>que horas eu te pego</td>
+        <td>matrix</td>
+      </tr>
+      <tr class="homens">
+        <th rowspan="3">homens</th>
+        <td>carlos eduardo</td>
+        <td> alien</td>
+        <td>ben 10</td>
+        <td>gente grande 2</td>
+      </tr>
+      <tr class="homens">
+        <td>Henrique Mendonça</td>
+        <td>gente grande 1</td>
+        <td>gente grande 2</td>
+        <td>pixel</td>
+      </tr>
+      <tr class="homens">
+        <td>enzo matias</td>
+        <td>bob esponja</td>
+        <td>matrix</td>
+        <td>mid homens de preto</td>
+      </tr>
+    
+      
+    </tbody>
+  </table>
+    
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>tabela resposiva</title>
+  <style>
+  *{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /*logo abaixo esta o responsável pela responsividade da tabela, pra ele funciona nao tem que ser aplicado em uma div que esteja "guardando" uma tabela*/
+    .tabela{
+      overflow: auto;
+    }
+    table{
+      border-collapse: collapse;
+      
+    }
+    th, td, caption{
+      border: 1px solid black;
+      padding: 10px;
+    }
+    caption{
+      background-color: #BEBEBE;
+      font-weight: bolder;
+    }
+    th{
+      background-color: #828282;
+    }
+    h1{
+      background-image: linear-gradient(to right, #838383, transparent);
+      padding: 5px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+  </style>
+</head>
+
+
+<body>
+  <h1>Essa tabela sera responsiva</h1>
+  <p>Inves dela criar uma rolagem lateral na pagina, ela apenas gira para o lado</p>
+  <div class="tabela">
+    <table>
+      <caption>
+        tabela cobaia
+      </caption>
+      <thead>
+        <tr>
+          <th>coisa 1</th>
+          <th>coisa 2</th>
+          <th>coisa 3</th>
+          <th>coisa 4</th>
+          <th>coisa 5</th>
+          <th>coisa 6</th>
+          <th>coisa 7</th>
+          <th>coisa 8</th>
+          <th>coisa 9</th>
+          <th>coisa 10</th>
+          <th>coisa 11</th>
+          <th>coisa 12</th>
+          <th>coisa 13</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+        </tr>
+        <tr>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+        </tr>
+        <tr>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+          <td>algo</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+</body>
+
+</html>
