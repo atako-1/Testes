@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>testes de transição</title>
+  <style>
+  @keyframes rainbow{
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+  
+  
+    *{
+      margin: 0px;
+      padding: 0px;
+      
+    }
+    
+      
+    }
+    h1{
+      background-image: linear-gradient(to right, red, blue, yellow, green);
+      color: transparent;
+      
+      -webkit-background-clip: text;
+    }
+    h1:hover{
+      transition: background-image;
+    }
+    
+    
+    
+    h2{
+  /* Aplica um gradiente de cores como background */
+  background: linear-gradient(
+    to right,
+    #ff0000,
+    #ff8000,
+    #ffff00,
+    #00ff00,
+    #00ffff,
+    #0000ff,
+    #8000ff
+  );
+
+  /* Recorta o background para que ele apareça apenas onde o texto está */
+  background-clip: text;
+  -webkit-background-clip: text; /* Para compatibilidade com navegadores WebKit */
+
+  /* Torna o texto transparente para que o background apareça */
+  color: transparent;
+
+  /* Animação para mover o gradiente */
+  animation: rainbow 5s infinite linear;
+  font-weight: bolder;
+}
+
+/* Define a animação */
+
+}
+
+   
+  </style>
+</head>
+  
+<body>
+  <div>
+    <h1>testes de transição</h1>
+    <h2>esse sim vai ficar animado</h2>
+  </div>
+  
+  
+</body>
+
+</html>

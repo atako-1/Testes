@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>mais testes de formulario</title>
+</head>
+  <style>
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+    form{
+      padding: 10px;
+      background-color: #979797;
+      margin: auto;
+      max-width: 350px;
+      box-shadow: 4px 4px 4px #686868;
+      
+    }
+    .reset, .enviar{
+      
+      background-color: #666666;
+      margin: auto;
+      padding: 4px;
+      border-radius: 10px;
+      border: 2px solid black;
+      margin: 5px;
+      color: white;
+      font-weight: bolder;
+      box-shadow: 2px 2px 2px #505050
+      
+    }
+    input{
+      border: 2px solid red;
+      border-radius: 10px;
+      padding: 2px;
+      background-color: white;
+      
+      
+    }
+    p.dados{
+      background-color: #5D5D5D;
+      
+      display: inline-block;
+      padding: 2px;
+      border-radius: 10px 0px 0px 10px;
+      margin: 2px;
+      color: white;
+    }
+    
+
+  </style>
+<body>
+  <form autocomplete="on">
+    <p class="dados">
+      <label for="inome">
+        Nome:
+      </label>
+      <input
+      type="text" 
+      name="nome" 
+      id="inome"
+      placeholder="mínimo 8. caracteres"
+      minlength="4"
+      maxlength="12"
+      size="12"
+      required
+      >
+      
+    </p>
+    <p class="dados">
+      <label for="isobrenome">
+        Sobrenome:
+      </label>
+      <input 
+      type="text"
+      name="sobrenome" 
+      id="isobrenome"
+      minlength="8"
+      maxlength="15"
+      size="15"
+      placeholder="minimo 8 caracteres"
+      required>
+    </p>
+
+    <p class="dados">
+      <label for="isenha">
+        Senha:
+      </label>
+      <input 
+      type="password" 
+      name="senha" 
+      id="isenha"
+      minlength="8"
+      maxlength="20"
+      size="20"
+      placeholder="minimo 8 caracteres"
+      required>
+    </p>
+    <p>
+      <input type="submit" value="Enviar" class="enviar">
+      <input type="reset" value="Resetar" class="reset">
+    </p>
+    
+  </form>
+</body>
+
+</html>
