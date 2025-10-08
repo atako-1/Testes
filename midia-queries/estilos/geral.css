@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/*configurações gerais*/
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  background-color: #AEAEAE;
+  
+}
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
+  background-color: #7A7A7A;
+  text-align: center;
+}
+div{
+  min-height: 700px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+  
+}

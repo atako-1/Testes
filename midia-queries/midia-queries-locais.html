@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+  <style>
+  /*geral*/
+  h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  p{
+    color: #003A13;
+    font-weight: bolder;
+    background-color: #00FF52;
+  }
+
+  
+    body{
+      background-color: darkred;
+    }
+    /*deitado(landscape)*/
+    @media screen and (orientation: landscape){
+      p.portrait{
+        display:none;
+      }
+    }
+    /*em pé*/
+    @media screen and (orientation: portrait){
+      p.landscape{
+        display: none;
+      }
+    }
+    
+  </style>
+<body>
+  <h1>aqui vemos um exemplo de media queries locais e tudo junto</h1>
+  <p class="landscape">deitado(landscap)</p>
+  <p class="portrait">em pé (portrait)</p>
+</body>
+
+</html>
